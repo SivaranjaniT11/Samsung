@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samsung Website</title>
+  <link rel="shortcut icon" href="images/Samsung_Favicon.png" type="image/">
+  <!--Style Sheets-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Bootstarp Links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- icons links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!--Google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&family=Satisfy&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Header Navbar-->
+  <header class="sticky-sm-top">
+    <nav class="navbar navbar-expand-lg  bg-light ">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand"> <img src="images/logo.png" alt=""></a>
+        <!--Navber-toggler-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-white">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-dark mx-2" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="mobile.html" class="nav-link text-dark mx-2" aria-current="page">Moblie</a>
+            </li>
+            <li class="nav-item">
+              <a href="Tv.html" class="nav-link text-dark mx-2" aria-current="page">TV&AV</a>
+            </li>
+            <li class="nav-item">
+              <a href="homeappliance.html" class="nav-link text-dark mx-2" aria-current="page">Home Appliance</a>
+            </li>
+            <li class="nav-item">
+              <a href="lap&mon.html" class="nav-link text-dark mx-2" aria-current="page">Laptop & Monitors </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-dark mx-2" aria-current="page">Displays</a>
+            </li>
+            <li class="nav-item">
+              <a href="accessories.html" class="nav-link text-dark mx-2" aria-current="page">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link text-dark mx-2" aria-current="page">Contact</a>
+            </li>
+          </ul>
+          <!--Icons-->
+          <div class="icons-1">
+            <button type="button" class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button type="button" class="btn"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button type="button" class="btn"><i class="fa-solid fa-user"></i></button>
+          </div>
+          <!--Icons End-->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--carousel galaxy-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video class="img-fluid w-100" autoplay loop muted>
+          <source src="images/carousel1.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption position-absolute end-50 bottom-50  mt-5">
+          <div style=" margin-top: 3%;">
+            <h1><b>Galaxy S23 series</b> </h1>
+            <a href="" class="btn text-warning">Learn more</a>
+            <a href="" class="btn btn-light rounded-5">Buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <video class="img-fluid w-100" autoplay loop muted>
+          <source src="images/smart.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption position-absolute  top-0 end-50 mt-5">
+          <div style=" margin-top: 3%;" class=" text-dark">
+            <h1><b> Galaxy Z Fold4 | Z Flip4 </b></h1>
+            <a href="" class="btn text-balck">Learn more</a>
+            <a href="" class="btn btn-dark rounded-5">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--carouselend-->
+  <!--card-->
+  <section class="px-lg-5">
+    <div class="container mt-5 mb-5">
+      <div class="row" >
+        <div class="col-sm-3 mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/smart-card1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Z Flip4</h5>
+              <p style="font-size:10px;"> <b>Colour</b> :Graphite</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-secondary border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle" style="color: rgb(152, 94, 206);"></i> <i class="fa-solid fa-circle"
+                  style="color: rgb(94, 137, 206);"></i> <i class="fa-solid fa-circle"
+                  style="color: rgb(221, 148, 229);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">256 GB</span></p>
+              <p class="mt-3"> <b>From ₹3782.88/mo for 24 mos at 15% Interest or ₹ 89999.00 </b></p>
+              <p>
+              <div><del> ₹ 149999.00</del> Save ₹25000.00</div>
+              </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/smart-card2.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy S22 Ultra</h5>
+              <p style="font-size:10px;"> <b>Colour</b> :Green</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-secondary mx-2 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle " style="color: rgb(49, 60, 51);"></i> <i class="fa-solid fa-circle mx-2"
+                  style="color: rgb(214, 174, 206);"></i> <i class="fa-solid fa-circle "
+                  style="color: rgb(207, 190, 208);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">256 GB</span> <span
+                  class="mx-"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹7710.07/mo for 18 mos at 13.5% Interest or ₹ 124999.00</b></p>
+              <p><del> ₹ 149999.00</del> Save ₹25000.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/smart-card3.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Z Fold4</h5>
+              <p style="font-size:10px;"> <b>Colour </b>:Phantom Black </p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-balck mx-3 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle text-secondary"></i> <i class="fa-solid fa-circle mx-3"
+                  style="color: rgb(209, 179, 203);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">512 GB</span> <span
+                  class="mx-"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹7710.07/mo for 18 mos at 13.5% Interest or ₹ 124999.00</b></p>
+              <p><del> ₹ 149999.00</del> Save ₹25000.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/smart-card4.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy S23</h5>
+              <p style="font-size:10px;"> <b>Colour </b>:Cream</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-balck mx-3 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle text-secondary"></i> <i class="fa-solid fa-circle mx-3"
+                  style="color: rgb(209, 179, 203);"></i><i class="fa-solid fa-circle "
+                  style="color: rgb(209, 179, 203);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">512 GB</span> <span
+                  class="mx-"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹4934.42/mo for 18 mos at 13.5% Interest or ₹ 79999.00</b></p>
+              <p><del> ₹ 95999.00</del> Save ₹16000.00</p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--card end-->
+  <section class="px-lg-5 m-2">
+    <div class="smart-banner position-relative" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000">
+      <img src="images/smart-banner.png" class="rounded-2 " alt="" width="100%">
+      <div class="position-absolute start-0 top-50   text-white mx-5 sm">
+        <h1 class="">Galaxy S</h1>
+        <p>Share the Epic</p>
+        <div class="btn btn-light text-dark  rounded-5 mb-5">See all</div>
+        <br>
+      </div>
+    </div>
+  </section>
+  <!--tablet-->
+  <section class="Tablets ">
+    <video src="images/VN20230315_113305.mp4" autoplay loop width="100%"></video>
+  </section>
+  <!--card-->
+  <section class="px-lg-5">
+    <div class="container mt-5 mb-5">
+      <div class="row" >
+        <div class="col-sm-3 mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/tab-cart1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Tab S8 Ultra </h5>
+              <p style="font-size:10px;"> <b>Colour</b> :Graphite</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-secondary border border-1 border-dark rounded-4 p-1"></i> </div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">256 GB</span></p>
+              <p class="mt-3"> <b>From ₹3782.88/mo for 24 mos at 15% Interest or ₹ 89999.00 </b></p>
+              <p>
+              <div class="text-primary" style="font-size: 10px;"><del> ₹ 125999.00</del> Save ₹17000.00</div>
+              </p>
+              <a href="#" class="btn btn-dark mb-2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/tab-cart2.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Tab S8+</h5>
+              <p style="font-size:10px;"> <b>Colour</b> :pink Gold</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-secondary mx-2 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle mx-2" style="color: rgb(214, 174, 206);"></i> <i class="fa-solid fa-circle "
+                  style="color: rgb(207, 190, 208);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-1"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹3103.09/mo for 24 mos at 15% Interest or ₹ 73999.00</b></p>
+              <p>
+              <div class="text-primary" style="font-size: 10px;"><del>₹ 85999.00</del> Save ₹12000.00</div>
+              </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/tab-cart3.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Tab S8</h5>
+              <p style="font-size:10px;"> <b>Colour </b>:Phantom Black </p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-balck mx-3 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle text-secondary"></i> <i class="fa-solid fa-circle mx-3"
+                  style="color: rgb(209, 179, 203);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">512 GB</span> <span
+                  class="mx-"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹3103.09/mo for 24 mos at 15% Interest or ₹ 73999.00</b></p>
+              <p>
+              <div class="text-primary" style="font-size: 10px;"><del>₹ 85999.00</del> Save ₹12000.00</div>
+              </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-3"data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+          <div class="card shadow">
+            <div class="img-thumbnail">
+              <img src="images/tab-cart4.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Galaxy Tab A8</h5>
+              <p style="font-size:10px;"> <b>Colour </b>:Cream</p>
+              <div class="fs-5"><i
+                  class="fa-solid fa-circle text-balck mx-3 border border-1 border-dark rounded-4 p-1"></i> <i
+                  class="fa-solid fa-circle text-secondary"></i> <i class="fa-solid fa-circle mx-3"
+                  style="color: rgb(232, 222, 185);"></i><i class="fa-solid fa-circle "
+                  style="color: rgb(209, 179, 203);"></i></div>
+              <p class="card-text mt-3" style="font-size:10px;"><span
+                  class="border border-1 border-dark rounded-4 p-1">128 GB</span> <span class="mx-3">512 GB</span> <span
+                  class="mx-"> 1 TB</span></p>
+              <p class="mt-3"> <b>From ₹3103.09/mo for 24 mos at 15% Interest or ₹ 73999.00</b></p>
+              <p>
+              <div class="text-primary" style="font-size: 10px;"><del>₹ 85999.00</del> Save ₹12000.00</div>
+              </p>
+              <a href="#" class="btn btn-dark mb-2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid bg-black text-light">
+    <div class="container mt-4 ">
+      <div class="row">
+        <div class="col-sm-3 mt-2">
+          <h4>Product & Service</h4>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Samrtphone</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Tablets</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Wathches</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Smart Switch</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Mobile Accessories</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> TVs</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Refrigerators</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Air Solution</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Cooking Appliance</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Memory Stroage</a>
+        </div>
+
+        <div class="col-sm-3 mt-2">
+          <h4>Shop</h4>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Cancellation & return policy</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Track order status</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Vocher</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> corporate Bulk purchase</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> store Location</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Smart Club</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> FAQs</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Terms of Use</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Grievance Redressal</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Explore</a>
+        </div>
+        <div class="col-sm-3 mt-2">
+          <h4>Account & Community</h4>
+          <a href="" class="nav-link"> <i class="fa-solid fa-chevron-right "></i> My page</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> My Products</a>
+          <a href="" class="nav-link"> <i class="fa-solid fa-chevron-right "></i> Orders</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Wishlist</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Vouchers</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> My Referrals</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Service</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Community</a>
+        </div>
+        <div class="col-sm-3 mt-2">
+          <h4>Sustainability</h4>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Environment</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Security & Privacy</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Accessability</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> Diversity. Equity. Inclusion</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> corporate citizenship</a>
+          <a href="" class="nav-link"><i class="fa-solid fa-chevron-right "></i> corporate Sustainability</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center border-dark border-top mt-1 mb-2">
+          Design by sivaranjani T
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

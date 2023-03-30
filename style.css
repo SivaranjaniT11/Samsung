@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Open+Sans:wght@400;600&family=Playfair+Display&family=Roboto&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;500&family=Roboto&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --dark-color:#000;
+    --secondary-color:#9d9d9dc5;
+    --brown-color:rgb(102, 76, 76);
+}
+.carousel-caption , .navbar , .smart-banner , .card-title ,.lapbanner ,.slider,.accessries5{
+    font-family: 'Bona Nova', serif;
+}
+#intro,.accessries4,.conat-img{
+    font-family: 'Playfair Display', serif;
+}
+.accessries,.accessries1, .accessries2, .accessries3{
+    font-family: 'Roboto', sans-serif;
+}
+.carousel-caption, .carousel-caption h1, .sm h1 , .lapbanner h1{
+    font-size:50px;
+   }
+   .carousel-caption p{
+    font-size:20px;
+   }
+   .carousel-caption a{
+    font-size:15px;
+   }
+#Computing{
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/in/1440x810_1.jpg?$1440_810_JPG$');
+    height: 100vh;
+}
+.g-23 .img-thumbnail, .card .img-thumbnail ,#micro .img-thumbnail{
+    overflow: hidden;
+    border: none;
+}
+.g-23 img:hover ,.card img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.laptop img:hover , .accessries img:hover{
+    transform: scale(1.0);
+}
+#micro img:hover{
+    cursor: pointer;
+    scale:1.1;
+    transition: 1s ease-in-out;
+}
+.img-1{
+    position: relative;
+}
+.img-overlay .btn{
+    display: none;
+}
+.img-1:hover .img-overlay .btn{
+    display: block;
+    transition: 5s ease-in-out;
+}
+.img-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%) translateY(-50%);
+}
+/**/
+.tv-1{
+    border-left:2px solid var(--secondary-color);
+}
+.tv-1 p{
+    font-size: 13px;
+}
+.ref-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ref-card .card img{
+    width: 60%;
+}
+.sup{
+    font-size: 10px;
+}
+#view-second{
+    display: none;
+}
+.fa-heart{
+    cursor: pointer;
+}
+/**/
+footer h4 , footer a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+footer a:hover{
+    text-decoration-line:underline ;
+}
+
+/*Slider display*/
+.slider{
+    position: relative;
+   
+  }
+  .slider-item,
+  .hidden
+  {
+  display: none;
+  }
+  .active{
+    display: block;
+  }
+  .slider-btns{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+  }
+  .slider-btns button{
+    font-size: 30px;
+    font-weight: 400;
+    background-color:rgba(0,0,0,0.5);
+    border:none;
+    cursor: pointer;
+  }
+ .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } 
+ .conat-img{
+    background: url('images/contact.png');
+    height: 100vh;
+ }
+ .contact .col-sm-12 
+ {
+    background: rgba(255, 255, 255, 0.056);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+ }
+ .contact input:focus , .contact textarea:focus{
+    outline: none;color: aliceblue;
+    background-color: transparent;
+ }
+ .contact input , .contact textarea{
+    width: 100%;
+    border: none;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px solid gainsboro;
+ }
+ .product,.product-1 , .monproduct{
+    position: relative;
+ }
+ .preview , .preview1 , .monpreview{
+    background: rgba(0, 0, 0, 0.537);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+ .preview , .preview1, .monpreview {
+    display: none;
+ }
+
+@media (max-width:576px) {
+   
+       .carousel-caption , .sm h1 , .carousel-caption h3,.carousel-caption h1 {
+        font-size:12px;
+       }
+       .lapbanner h1  {
+        font-size:18px;
+       }
+       .sm .btn ,.sm p  {
+        font-size: 10px;
+       }
+       .lapbanner .btn{
+
+        font-size: 10px;
+       }
+       .carousel-caption p{
+        font-size:6px;
+       }
+       .carousel-caption a{
+        font-size:8px;
+       }#Computing{
+        background-position: center;
+       }
+       .lap h1 ,.lap button{
+        font-size: 12px;
+       }
+       .lap .book3
+       {
+        font-size:7px;
+       }
+        .lap p,.lap .d-flex  .buy ,.ref p , .ref button {
+            display: none;
+       }
+       .carousel-caption h2, .carousel-caption p ,.carousel-caption a {
+        display: none;
+       }
+       .tv-1{
+        border-left:0px solid var(--secondary-color);
+    }
+    .smart-banner .btn{
+font-size: 10px;
+    }
+    .ref-card .card img{
+        width: 50%;
+    }
+    .ref-card .card{
+        margin-top:15%;
+    }
+    .monitor .con{
+       
+     display: none;
+    }
+
+    .slider-btns{
+        position: absolute;
+        top:30%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+      }
+     
+      .con-display h5 , .con-display h5{
+        font-size: 10px;
+      }
+      
+      .con-display p , .con-display .btn{
+        display: none;
+      }
+      .conat-img{
+        background: url('images/contact.png');
+        height: 100vh;
+        background-size: 100% 100%;
+     }
+     .smart-banner .btn{
+        display: none;
+     }
+}
